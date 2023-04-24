@@ -1,0 +1,26 @@
+
+.header {
+    background-color: #FF9A9A;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .header ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+  
+  .header li {
+    margin-left: 1rem;
+  }
+  .header a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  

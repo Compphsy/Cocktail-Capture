@@ -1,0 +1,79 @@
+/* Cocktail dashboard CSS */
+
+.recipe-card {
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cocktail-recipe-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cocktail-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .cocktail-header {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-card p,
+  .recipe-card li {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-card button {
+    background-color: #0077cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .recipe-card button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recipe-card a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  .recipe-card a:hover {
+    text-decoration: underline;
+  }
+  
+  .recipe-card .button {
+    display: inline-block;
+    background-color: #0077cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .recipe-card .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }

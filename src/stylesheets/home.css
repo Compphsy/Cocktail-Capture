@@ -1,0 +1,13 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFF1ED;
+  }
+  
+  .home-title {
+    font-size: 4rem;
+    font-family: cursive;
+    text-align: center;
+  }

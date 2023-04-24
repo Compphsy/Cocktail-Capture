@@ -1,0 +1,28 @@
+/* edit cocktail component */
+
+.delete-button{
+    margin-top: 5px;
+  }
+  
+    .camera-button-container {
+      margin-bottom: 5px;
+    }
+    button[type="submit"] {
+      margin-top: 5px;
+    }
+    .cocktail-image {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }  
+  
+  @media screen and (max-width: 768px) {
+    .cocktail-recipe-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .cocktail-image {
+      margin-bottom: 10px;
+    }
+  }
+  
+  

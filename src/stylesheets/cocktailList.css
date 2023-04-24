@@ -1,0 +1,13 @@
+/* Cocktail List page*/
+.cocktail-image-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+  }
+  
+  .image-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
