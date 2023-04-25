@@ -6,15 +6,16 @@ Cocktail Capture is an application that allows users to add and store cocktail r
 
 Cocktail Capture offers the following features:
 
-Add and store cocktail recipes with photo and location data
-Edit and delete existing cocktail recipes
-Search for cocktail recipes by name or ingredient
-View cocktail recipes with a list of ingredients, preparation steps, and photo
-View the location where the cocktail was captured on a map
+<ol>
+<li>Add and store cocktail recipes with optional photo and location data</li>
+<li>Edit and delete existing cocktail recipes</li>
+<li>Search for cocktail recipes by name</li>
+<li>View cocktail recipes with a list of ingredients, preparation steps, and optional photo and location data</li>
+</ol>
 
 <h1>Running the Application</h1>
 
-To run the application, follow these steps:
+<p>To run the application, follow these steps:</p>
 
 1. Clone the repository to your local machine.
 2. Set up a MongoDB Atlas or Compass account and create a new cluster.
@@ -37,7 +38,9 @@ PORT=[Port number for the server]
 <li>Cloudinary</li>
 <li>IndexedDB</li>
 </ol>
+
 <h1>Contribute</h1>
+
 <ol>
 <li>Fork the repository.</li>
 <li>Make your changes.</li>
