@@ -17,8 +17,6 @@ Cocktail Capture offers the following features:
 
 <p>To run the application, follow these steps:</p>
 
-I apologize for the confusion. Here are the steps with an ordered list (ol) and an unordered list (ul) for clarity:
-
 <ol>
 <li>Clone the repository to your local machine.</li>
 <li>Set up a MongoDB Atlas or Compass account and create a new cluster.</li>
