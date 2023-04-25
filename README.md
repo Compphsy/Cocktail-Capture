@@ -17,27 +17,32 @@ Cocktail Capture offers the following features:
 
 <p>To run the application, follow these steps:</p>
 
-1. Clone the repository to your local machine.
-2. Set up a MongoDB Atlas or Compass account and create a new cluster.
-3. Create a .env file in the root directory with the following variables:
-MONGO_URI=[Your MongoDB Atlas URI]
-JWT_SECRET=[Add secret key]
-PORT=[Port number for the server]
-4. Open a terminal and navigate to the project directory.
-5. Run npm install to install the project's dependencies.
-6. Start the server using npm run dev.
-7. Open a web browser and navigate to http://localhost:PORT to access the application.
+<ol>
+<li>Clone the repository to your local machine.</li>
+<li>Set up a MongoDB Atlas or Compass account and create a new cluster.</li>
+<li>Create a .env file in the root directory with the following variables:
+    <ul>
+      <li>MONGO_URI=[Your MongoDB Atlas URI]</li>
+      <li>JWT_SECRET=[Add secret key]</li>
+      <li>PORT=[Port number for the server]</li>
+    </ul>
+ </li>
+<li>Open a terminal and navigate to the project directory.</li>
+<li>Run npm install to install the project's dependencies.</li>
+<li>Start the server using npm run dev.</li>
+<li>Open a web browser and navigate to http://localhost:PORT to access the application.</li>
+</ol>
 
 <h1>Technologies Used</h1>
 
-<ol>
+<ul>
 <li>React</li>
 <li>Node.js</li>
 <li>MongoDB</li>
 <li>Express</li>
 <li>Cloudinary</li>
 <li>IndexedDB</li>
-</ol>
+</ul>
 
 <h1>Contribute</h1>
 
@@ -49,13 +54,13 @@ PORT=[Port number for the server]
 
 <h1>Roadmap</h1>
 
-<ol>
+<ul>
 <li>Add user authentication and authorization</li>
 <li>Allow users to rate and review cocktails</li>
 <li>Implement a feature to suggest cocktails based on ingredients or location</li>
 <li>Improve the user interface and add more interactive features</li>
-</ol>
+</ul>
 
 <h2>License</h2>
 
-This project is licensed under the MIT License.
+<p>This project is licensed under the MIT License. </p>
