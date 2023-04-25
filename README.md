@@ -17,16 +17,17 @@ Cocktail Capture offers the following features:
 
 <p>To run the application, follow these steps:</p>
 
+I apologize for the confusion. Here are the steps with an ordered list (ol) and an unordered list (ul) for clarity:
+
 <ol>
 <li>Clone the repository to your local machine.</li>
 <li>Set up a MongoDB Atlas or Compass account and create a new cluster.</li>
-<li>Create a .env file in the root directory with the following variables:
+<li>Create a .env file in the root directory with the following variables:</li>
     <ul>
       <li>MONGO_URI=[Your MongoDB Atlas URI]</li>
       <li>JWT_SECRET=[Add secret key]</li>
       <li>PORT=[Port number for the server]</li>
     </ul>
- </li>
 <li>Open a terminal and navigate to the project directory.</li>
 <li>Run npm install to install the project's dependencies.</li>
 <li>Start the server using npm run dev.</li>
